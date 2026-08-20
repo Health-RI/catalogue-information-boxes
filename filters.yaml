@@ -71,8 +71,8 @@ modified:
     nl: "De meest recente datum waarop de Dataset is gewijzigd."
 typical_age:
   text:
-    en: "The age range of individuals represented in the dataset, defined by the minimum and maximum typical ages and excluding outliers."
-    nl: "The leeftijdsrange van personen die in de dataset zijn vertegenwoordigd, bepaald door de minimale en maximale typische leeftijd, exclusief uitschieters "
+    en: "The approximate age range of individuals represented in the dataset, excluding outliers."
+    nl: "The  geschatte leeftijdsrange individuen die in de dataset zijn vertegenwoordigd, exclusief uitschieters "
 personal_data:
   text:
     en: "The categories of personal information that are collected in the Dataset."
@@ -121,13 +121,13 @@ number_of_unique_individuals:
     nl: "Het aantal unieke individuen dat in de dataset vertegenwoordigd is."
 vocab_qualified_attribution_role:
   text:
-    en: "An Agent having some form of responsibility for the resource. "
-    nl: "Een organisatie of individu met een bepaalde rol m.b.t. de dataset"
+    en: "The role an Agent has in relation to the dataset."
+    nl: "De rol die een organisatie of individu heeft met betrekking tot de dataset."
 vocab_qualified_attribution_agent_name:
   text:
-    en: "Dummy text EN: placeholder explanation for 'qualified attribution agent name'."
-    nl: "Dummy tekst NL: tijdelijke uitleg voor 'qualified attribution agent name'."
+    en: "The organisation or individual associated with this role."
+    nl: "De organisatie of individu die aan deze rol is gekoppeld."
 temporal_coverage:
   text:
-    en: "Dummy text EN: placeholder explanation for 'temporal coverage'."
-    nl: "Dummy tekst NL: tijdelijke uitleg voor 'temporal coverage'."
+    en: "The start and end date (if applicable) of the period(s) that the dataset covers."
+    nl: "De start- en einddatum (indien van toepassing) van de periode(s) die de dataset dekt."
