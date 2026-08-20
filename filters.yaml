@@ -43,94 +43,86 @@
 # --- Group: GENERAL ---
 access_rights:
   text:
-    en: "Dummy text EN: placeholder explanation for 'access rights'."
-    nl: "Dummy tekst NL: tijdelijke uitleg voor 'access rights'."
+    en: "Indicates the access level of the Dataset."
+    nl: "Het toegangslevel van de dataset."
 coding_system:
   text:
-    en: "Dummy text EN: placeholder explanation for 'coding system'."
-    nl: "Dummy tekst NL: tijdelijke uitleg voor 'coding system'."
+    en: "Codingsystems used to encode values inside the Dataset."
+    nl: "Codesystemen die in de dataset gebruikt worden om waardes te coderen."
 code_values:
   text:
-    en: "Dummy text EN: placeholder explanation for 'code values'."
-    nl: "Dummy tekst NL: tijdelijke uitleg voor 'code values'."
+    en: "A free-text description containing the code values of the coding systems used that apply to the Dataset."
+    nl: "Vrije tekst beschrijving van relevante codewaarden uit codesystemen die in de dataset gebruikt worden."
 frequency:
   text:
-    en: "Dummy text EN: placeholder explanation for 'frequency'."
-    nl: "Dummy tekst NL: tijdelijke uitleg voor 'frequency'."
+    en: "Information on update frequency of the data in the Dataset."
+    nl: "Informatie over de update frequentie van de data in de dataset."
 health_theme:
   text:
-    en: "Dummy text EN: placeholder explanation for 'health theme'."
-    nl: "Dummy tekst NL: tijdelijke uitleg voor 'health theme'."
+    en: "A category of the Dataset or tag describing the Dataset."
+    nl: "Een gezondheidsthema dat van toepassing is op deze dataset."
 issued:
   text:
-    en: "Dummy text EN: placeholder explanation for 'release date'."
-    nl: "Dummy tekst NL: tijdelijke uitleg voor 'release date'."
+    en: "The date of formal issuance (e.g.: publication) of the Dataset."
+    nl: "Datum van formele uitgifte (bijv. publicatie) van de dataset."
 modified:
   text:
-    en: "Dummy text EN: placeholder explanation for 'modification date'."
-    nl: "Dummy tekst NL: tijdelijke uitleg voor 'modification date'."
+    en: "The latest date on which the Dataset was changed."
+    nl: "De meest recente datum waarop de Dataset is gewijzigd."
 typical_age:
   text:
-    en: "Dummy text EN: placeholder explanation for 'typical age'."
-    nl: "Dummy tekst NL: tijdelijke uitleg voor 'typical age'."
-min_typical_age:
-  text:
-    en: "Dummy text EN: placeholder explanation for 'minimum typical age'."
-    nl: "Dummy tekst NL: tijdelijke uitleg voor 'minimum typical age'."
-max_typical_age:
-  text:
-    en: "Dummy text EN: placeholder explanation for 'maximum typical age'."
-    nl: "Dummy tekst NL: tijdelijke uitleg voor 'maximum typical age'."
+    en: "The age range of individuals represented in the dataset, defined by the minimum and maximum typical ages and excluding outliers."
+    nl: "The leeftijdsrange van personen die in de dataset zijn vertegenwoordigd, bepaald door de minimale en maximale typische leeftijd, exclusief uitschieters "
 personal_data:
   text:
-    en: "Dummy text EN: placeholder explanation for 'personal data'."
-    nl: "Dummy tekst NL: tijdelijke uitleg voor 'personal data'."
+    en: "The categories of personal information that are collected in the Dataset."
+    nl: "De categorieën van persoonlijke informatie die in de Dataset zijn verzameld"
 number_of_records:
   text:
-    en: "Dummy text EN: placeholder explanation for 'number of records'."
-    nl: "Dummy tekst NL: tijdelijke uitleg voor 'number of records'."
+    en: "The total number of records in the Dataset."
+    nl: "Het totale aantal records in de Dataset."
 
 # --- Group: MORE ---
 alternate_identifier:
   text:
-    en: "Dummy text EN: placeholder explanation for 'other identifier'."
-    nl: "Dummy tekst NL: tijdelijke uitleg voor 'other identifier'."
+    en: "A other identifier for the Dataset."
+    nl: "Een alternatieve identifier voor de dataset."
 conforms_to:
   text:
-    en: "Dummy text EN: placeholder explanation for 'conforms to'."
-    nl: "Dummy tekst NL: tijdelijke uitleg voor 'conforms to'."
+    en: "Standards that the Dataset conforms to. Describes how the data is structured."
+    nl: "Standaarden waar de dataset aan voldoet. Beschrijft hoe de dataset gestructureerd is."
 is_referenced_by:
   text:
-    en: "Dummy text EN: placeholder explanation for 'is referenced by'."
-    nl: "Dummy tekst NL: tijdelijke uitleg voor 'is referenced by'."
+    en: "A related resource, such as a publication, that references, cites, or otherwise points to the Dataset."
+    nl: "Een andere bron, zoals een publicatie, die naar deze dataset verwijst."
 language:
   text:
-    en: "Dummy text EN: placeholder explanation for 'language'."
-    nl: "Dummy tekst NL: tijdelijke uitleg voor 'language'."
+    en: "A language of the Dataset."
+    nl: "De taal van de dataset."
 legal_basis:
   text:
-    en: "Dummy text EN: placeholder explanation for 'legal basis'."
-    nl: "Dummy tekst NL: tijdelijke uitleg voor 'legal basis'."
+    en: "The legal basis for initial collection and processing of (personal) data. "
+    nl: "De juridische grondslag voor de initiële verzameling en verwerking van (persoonlijke) gegevens. "
 tags:
   text:
-    en: "Dummy text EN: placeholder explanation for 'keyword'."
-    nl: "Dummy tekst NL: tijdelijke uitleg voor 'keyword'."
+    en: "A keyword or tag describing the Dataset."
+    nl: "Een trefwoord of tag die de dataset beschrijft."
 theme:
   text:
-    en: "Dummy text EN: placeholder explanation for 'theme'."
-    nl: "Dummy tekst NL: tijdelijke uitleg voor 'theme'."
+    en: "The main category of the Dataset."
+    nl: "De hoofdcategorie van de dataset."
 vocab_in_series_title:
   text:
-    en: "Dummy text EN: placeholder explanation for 'in series'."
-    nl: "Dummy tekst NL: tijdelijke uitleg voor 'in series'."
+    en: "A Dataset series of which the dataset is part."
+    nl: "Een dataset-reeks waar deze dataset deel van uitmaakt"
 number_of_unique_individuals:
   text:
-    en: "Dummy text EN: placeholder explanation for 'number of unique individuals'."
-    nl: "Dummy tekst NL: tijdelijke uitleg voor 'number of unique individuals'."
+    en: "The number of unique individuals represented in the Dataset"
+    nl: "Het aantal unieke individuen dat in de dataset vertegenwoordigd is."
 vocab_qualified_attribution_role:
   text:
-    en: "Dummy text EN: placeholder explanation for 'qualified attribution role'."
-    nl: "Dummy tekst NL: tijdelijke uitleg voor 'qualified attribution role'."
+    en: "An Agent having some form of responsibility for the resource. "
+    nl: "Een organisatie of individu met een bepaalde rol m.b.t. de dataset"
 vocab_qualified_attribution_agent_name:
   text:
     en: "Dummy text EN: placeholder explanation for 'qualified attribution agent name'."
