@@ -1,0 +1,133 @@
+# Dummy help text for the information icons shown next to search filters in the
+# GDI User Portal frontend. Content here is placeholder only — see README.md in
+# this folder for how this file is consumed and where the real copy should come
+# from. Loaded by the Discovery Service's YamlHelpTextLoader when
+# `helptext.filters-source` is configured (local file path or http(s) URL).
+#
+# Shape per key:
+#   <key>:
+#     text:                  # required, per language (falls back to "en")
+#       en: "..."
+#       nl: "..."
+#     link:                  # optional; omit entirely if there is no link
+#       label: ...           # see accepted shapes below
+#       value:               # required if "link" is present; always a list
+#         - "https://example.com"
+#
+# `link.label` is always keyed by language code (falls back to "en"); each
+# language's value may be a single string or a list of strings:
+#   - a language-code map to a single string:
+#       label:
+#         en: "More info"
+#         nl: "Meer info"
+#   - a language-code map to a list of strings:
+#       label:
+#         en: ["More info", "Even more info"]
+#         nl: ["Meer info", "Nog meer info"]
+# `link.value` is always a plain list of URLs (no language variants).
+# If, once resolved for a language, `label` and `value` differ in length, the
+# shorter one is padded automatically with a dummy entry ("More info" / "#").
+#
+# Keys are the configured filter facet keys (the `KEY` values in
+# scripts/aca-deploy-discovery.sh's DATASETS_FILTER_GROUPS). Where a filter key
+# doesn't match its human-facing label, the label is noted inline:
+#   - issued                        -> "release date"
+#   - modified                      -> "modification date"
+#   - typical_age                   -> "typical age" (range: min/max_typical_age)
+#   - alternate_identifier          -> "other identifier"
+#   - tags                          -> "keyword"
+#   - vocab_in_series_title         -> "in series"
+#   - vocab_qualified_attribution_role       -> "qualified attribution role"
+#   - vocab_qualified_attribution_agent_name -> "qualified attribution agent name"
+
+# --- Group: GENERAL ---
+access_rights:
+  text:
+    en: "Indicates the access level of the Dataset."
+    nl: "Het toegangslevel van de dataset."
+coding_system:
+  text:
+    en: "Codingsystems used to encode values inside the Dataset."
+    nl: "Codesystemen die in de dataset gebruikt worden om waardes te coderen."
+code_values:
+  text:
+    en: "A free-text description containing the code values of the coding systems used that apply to the Dataset."
+    nl: "Vrije tekst beschrijving van relevante codewaarden uit codesystemen die in de dataset gebruikt worden."
+frequency:
+  text:
+    en: "Information on update frequency of the data in the Dataset."
+    nl: "Informatie over de update frequentie van de data in de dataset."
+health_theme:
+  text:
+    en: "A category of the Dataset or tag describing the Dataset."
+    nl: "Een gezondheidsthema dat van toepassing is op deze dataset."
+issued:
+  text:
+    en: "The date of formal issuance (e.g.: publication) of the Dataset."
+    nl: "Datum van formele uitgifte (bijv. publicatie) van de dataset."
+modified:
+  text:
+    en: "The latest date on which the Dataset was changed."
+    nl: "De meest recente datum waarop de Dataset is gewijzigd."
+typical_age:
+  text:
+    en: "The age range of individuals represented in the dataset, defined by the minimum and maximum typical ages and excluding outliers."
+    nl: "The leeftijdsrange van personen die in de dataset zijn vertegenwoordigd, bepaald door de minimale en maximale typische leeftijd, exclusief uitschieters "
+personal_data:
+  text:
+    en: "The categories of personal information that are collected in the Dataset."
+    nl: "De categorieën van persoonlijke informatie die in de Dataset zijn verzameld"
+number_of_records:
+  text:
+    en: "The total number of records in the Dataset."
+    nl: "Het totale aantal records in de Dataset."
+
+# --- Group: MORE ---
+alternate_identifier:
+  text:
+    en: "A other identifier for the Dataset."
+    nl: "Een alternatieve identifier voor de dataset."
+conforms_to:
+  text:
+    en: "Standards that the Dataset conforms to. Describes how the data is structured."
+    nl: "Standaarden waar de dataset aan voldoet. Beschrijft hoe de dataset gestructureerd is."
+is_referenced_by:
+  text:
+    en: "A related resource, such as a publication, that references, cites, or otherwise points to the Dataset."
+    nl: "Een andere bron, zoals een publicatie, die naar deze dataset verwijst."
+language:
+  text:
+    en: "A language of the Dataset."
+    nl: "De taal van de dataset."
+legal_basis:
+  text:
+    en: "The legal basis for initial collection and processing of (personal) data. "
+    nl: "De juridische grondslag voor de initiële verzameling en verwerking van (persoonlijke) gegevens. "
+tags:
+  text:
+    en: "A keyword or tag describing the Dataset."
+    nl: "Een trefwoord of tag die de dataset beschrijft."
+theme:
+  text:
+    en: "The main category of the Dataset."
+    nl: "De hoofdcategorie van de dataset."
+vocab_in_series_title:
+  text:
+    en: "A Dataset series of which the dataset is part."
+    nl: "Een dataset-reeks waar deze dataset deel van uitmaakt"
+number_of_unique_individuals:
+  text:
+    en: "The number of unique individuals represented in the Dataset"
+    nl: "Het aantal unieke individuen dat in de dataset vertegenwoordigd is."
+vocab_qualified_attribution_role:
+  text:
+    en: "An Agent having some form of responsibility for the resource. "
+    nl: "Een organisatie of individu met een bepaalde rol m.b.t. de dataset"
+vocab_qualified_attribution_agent_name:
+  text:
+    en: "Dummy text EN: placeholder explanation for 'qualified attribution agent name'."
+    nl: "Dummy tekst NL: tijdelijke uitleg voor 'qualified attribution agent name'."
+temporal_coverage:
+  text:
+    en: "Dummy text EN: placeholder explanation for 'temporal coverage'."
+    nl: "Dummy tekst NL: tijdelijke uitleg voor 'temporal coverage'."
