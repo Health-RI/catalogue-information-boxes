@@ -51,7 +51,7 @@ only, no links — today's original behavior) or points at one of:
   `helptext.filters-source=/config/helptexts/filters.yaml` — a checkout of this repo (or
   just this folder) mounted at that path.
 - An **external URL**, e.g.
-  `helptext.filters-source=https://raw.githubusercontent.com/Health-RI/catalog-backend-deploy/main/config/helptexts/filters.yaml` —
+  `helptext.filters-source=https://raw.githubusercontent.com/Health-RI/catalogue-information-boxes/refs/heads/main/filters.yaml` —
   fetched at runtime over HTTP and cached in memory (`helptext.cache-ttl`, default 5
   minutes) so the service doesn't hit GitHub on every request.
 
