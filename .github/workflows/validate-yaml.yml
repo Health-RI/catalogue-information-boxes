@@ -10,31 +10,10 @@ jobs:
   validate:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v7
 
-      - name: Validate filters.yaml and detail-view.yaml parse as YAML
-        run: |
-          python3 -c "
-          import sys, yaml
+      - name: Install yamllint
+        run: pip install yamllint
 
-          files = ['filters.yaml', 'detail-view.yaml']
-          failed = False
-
-          for path in files:
-              try:
-                  with open(path) as f:
-                      data = yaml.safe_load(f)
-              except yaml.YAMLError as exc:
-                  print(f'::error file={path}::Invalid YAML: {exc}')
-                  failed = True
-                  continue
-
-              if not isinstance(data, dict):
-                  print(f'::error file={path}::Expected a top-level mapping, got {type(data).__name__}')
-                  failed = True
-                  continue
-
-              print(f'{path}: OK ({len(data)} keys)')
-
-          sys.exit(1 if failed else 0)
-          "
+      - name: Validate filters.yaml and detail-view.yaml
+        run: yamllint -d relaxed filters.yaml detail-view.yaml
