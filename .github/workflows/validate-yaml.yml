@@ -1,0 +1,19 @@
+name: Validate help-text YAML
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+
+      - name: Install yamllint
+        run: pip install yamllint
+
+      - name: Validate filters.yaml and detail-view.yaml
+        run: yamllint -d relaxed .
