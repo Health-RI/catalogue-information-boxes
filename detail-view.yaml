@@ -123,7 +123,7 @@ hasVersions:
     nl: "Een andere dataset welke een versie, editie of aanpassing van deze dataset is."
 healthTheme:
   text:
-    en: "A category of the Dataset or tag describing the Dataset. This could include, for example, the specific disease the dataset is about. "
+    en: "A category of the Dataset or tag describing the Dataset. This could include, for example, the specific disease the dataset is about."
     nl: "Een gezondheidsthema dat van toepassing is op deze dataset."
 identifier:
   text:
@@ -151,16 +151,16 @@ legalBasis:
     nl: "De juridische grondslag voor de initiële verzameling en verwerking van (persoonlijke) gegevens (bijv. Toestemming (consent), contract, wettelijke verplichting)."
 typicalAge:
   text:
-    en: "The approximate age range of individuals represented in the dataset, excluding outliers."
-    nl: "The  geschatte leeftijdsrange individuen die in de dataset zijn vertegenwoordigd, exclusief uitschieters "
+    en: "The approximate age range of individuals represented in the dataset, excluding outliers.
+    nl: "The  geschatte leeftijdsrange individuen die in de dataset zijn vertegenwoordigd, exclusief uitschieters."
 maxTypicalAge:
   text:
-    en: "The approximate age range of individuals represented in the dataset, excluding outliers."
-    nl: "The  geschatte leeftijdsrange individuen die in de dataset zijn vertegenwoordigd, exclusief uitschieters "
+    en: "Maximum age of the population within the Dataset, excluding outliers."
+    nl: "Maximum leeftijd van de populatie in de dataset, exclusief uitschieters."
 minTypicalAge:
   text:
-    en: "The approximate age range of individuals represented in the dataset, excluding outliers."
-    nl: "The  geschatte leeftijdsrange individuen die in de dataset zijn vertegenwoordigd, exclusief uitschieters "
+    en: "Minimum age of the population within the Dataset, excluding outliers."
+    nl: "Minimum leeftijd van de populatie in de dataset, exclusief uitschieters."
 modifiedAt:
   text:
     en: "The latest date on which the Dataset was changed."
