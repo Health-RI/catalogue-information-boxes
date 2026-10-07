@@ -73,16 +73,10 @@ accessRights:
   text:
     en: |-
       Indicates the access level of the Dataset.
-      There are three main access rights categories:
-      • Public: Non-personal health data openly accessible to everyone, without restrictions (e.g : open data).
-      • Restricted: Non-personal health data accessible only under specific conditions (e.g. licence, registration, agreement).
-      • Non-public: Personal health data not openly accessible, available only through a Health Data Access Body under EHDS rules.
+      There are three main access rights categories:1)Public: Non-personal health data openly accessible to everyone, without restrictions (e.g : open data). 2) Restricted: Non-personal health data accessible only under specific conditions (e.g. licence, registration, agreement). 3) Non-public: Personal health data not openly accessible, available only through a Health Data Access Body under EHDS rules.
     nl: |-
       Het toegangslevel van de dataset.
-      Er zijn drie levels voor toegangsrechten:
-      • Openbaar: Niet-persoonlijke gezondheidsgegevens die vrij toegankelijk zijn, zonder beperkingen (bijv. open data).
-      • Beperkt: Niet-persoonlijke gezondheidsgegevens die alleen onder specifieke voorwaarden toegankelijk zijn (bijv. licentie, registratie, overeenkomst).
-      • Niet-openbaar: Persoonlijke gezondheidsgegevens die niet vrij toegankelijk zijn en alleen via een HDAB beschikbaar zijn onder de EHDS-regels.
+      Er zijn drie levels voor toegangsrechten:1) Openbaar: Niet-persoonlijke gezondheidsgegevens die vrij toegankelijk zijn, zonder beperkingen (bijv. open data).2) Beperkt: Niet-persoonlijke gezondheidsgegevens die alleen onder specifieke voorwaarden toegankelijk zijn (bijv. licentie, registratie, overeenkomst).3) Niet-openbaar: Persoonlijke gezondheidsgegevens die niet vrij toegankelijk zijn en alleen via een HDAB beschikbaar zijn onder de EHDS-regels.
 analytics:
   text:
     en: "Points to a type of Distribution where users can access or request associated resources such as technical reports of the dataset, quality measurements, usability indicators, etc."
@@ -129,7 +123,7 @@ hasVersions:
     nl: "Een andere dataset welke een versie, editie of aanpassing van deze dataset is."
 healthTheme:
   text:
-    en: "A category of the Dataset or tag describing the Dataset. This could include, for example, the specific disease the dataset is about. "
+    en: "A category of the Dataset or tag describing the Dataset. This could include, for example, the specific disease the dataset is about."
     nl: "Een gezondheidsthema dat van toepassing is op deze dataset."
 identifier:
   text:
@@ -155,6 +149,10 @@ legalBasis:
   text:
     en: "The legal basis for initial collection and processing of (personal) data (e.g. Consent, Contract, Legal Obligation, Legitimate Interest, Vital Interest)"
     nl: "De juridische grondslag voor de initiële verzameling en verwerking van (persoonlijke) gegevens (bijv. Toestemming (consent), contract, wettelijke verplichting)."
+typicalAge:
+  text:
+    en: "The approximate age range of individuals represented in the dataset, excluding outliers."
+    nl: "The geschatte leeftijdsrange individuen die in de dataset zijn vertegenwoordigd, exclusief uitschieters."
 maxTypicalAge:
   text:
     en: "Maximum age of the population within the Dataset, excluding outliers."
