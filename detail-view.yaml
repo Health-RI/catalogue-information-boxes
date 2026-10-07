@@ -152,7 +152,7 @@ legalBasis:
 typicalAge:
   text:
     en: "The approximate age range of individuals represented in the dataset, excluding outliers."
-    nl: "The  geschatte leeftijdsrange individuen die in de dataset zijn vertegenwoordigd, exclusief uitschieters."
+    nl: "The geschatte leeftijdsrange individuen die in de dataset zijn vertegenwoordigd, exclusief uitschieters."
 maxTypicalAge:
   text:
     en: "Maximum age of the population within the Dataset, excluding outliers."
