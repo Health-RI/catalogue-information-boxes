@@ -151,7 +151,7 @@ legalBasis:
     nl: "De juridische grondslag voor de initiële verzameling en verwerking van (persoonlijke) gegevens (bijv. Toestemming (consent), contract, wettelijke verplichting)."
 typicalAge:
   text:
-    en: "The approximate age range of individuals represented in the dataset, excluding outliers.
+    en: "The approximate age range of individuals represented in the dataset, excluding outliers."
     nl: "The  geschatte leeftijdsrange individuen die in de dataset zijn vertegenwoordigd, exclusief uitschieters."
 maxTypicalAge:
   text:
