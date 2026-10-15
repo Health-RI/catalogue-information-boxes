@@ -81,7 +81,7 @@ analytics:
   text:
     en: "Points to a type of Distribution where users can access or request associated resources such as technical reports of the dataset, quality measurements, usability indicators, etc."
     nl: "Verwijst naar een type distributie waar gebruikers toegang hebben (of aan kunnen vragen) tot gerelateerde bronnen zoals technische rapporten, kwaliteitsmetingen en bruikbaarheidsindicatoren."
-applicable legislation:
+applicableLegislation:
   text:
     en: "Legislation that applies to this dataset, and for example mandates the publication of the dataset (like EHDS)."
     nl: "Wetgeving die van toepassing is op de dataset, en die bijvoorbeeld het publiceren van de dataset verplicht stelt (zoals de EHDS)."
