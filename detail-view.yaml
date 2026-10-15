@@ -163,8 +163,8 @@ maxTypicalAge:
     nl: "Maximum leeftijd van de populatie in de dataset, exclusief uitschieters."
 minTypicalAge:
   text:
-    en: "Minimum age of the population within the Dataset, excluding outliers."
-    nl: "Minimum leeftijd van de populatie in de dataset, exclusief uitschieters."
+    en: "The approximate age range of individuals represented in the dataset, excluding outliers."
+    nl: "The geschatte leeftijdsrange individuen die in de dataset zijn vertegenwoordigd, exclusief uitschieters."
 modifiedAt:
   text:
     en: "The latest date on which the Dataset was changed."
